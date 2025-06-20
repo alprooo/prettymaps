@@ -23,7 +23,7 @@ logging.basicConfig(
 presets = prettymaps.presets().to_dict()
 
 # Set the title of the app
-st.title("prettymaps")
+st.title("Map Mantap")
 
 cols = st.columns([1, 2])
 with cols[0]:
