@@ -23,7 +23,7 @@ logging.basicConfig(
 presets = prettymaps.presets().to_dict()
 
 # Set the title of the app
-st.title("Besutiful Maps Generator")
+st.title("Beautiful Maps Generator")
 
 cols = st.columns([1, 2])
 with cols[0]:
