@@ -28,7 +28,7 @@ st.title("Beautiful Maps Generator")
 cols = st.columns([1, 2])
 with cols[0]:
     query = st.text_area(
-        "Location", value="Stad van de Zon, Heerhugowaard, Netherlands", height=86
+        "Location", value="Kuala Lumpur, Malaysia", height=86
     )
     radius = st.slider("Radius (km)", 0.5, 1.5, 0.75, step=0.25)
     circular = st.checkbox("Circular map", value=False)
